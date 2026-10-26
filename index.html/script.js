@@ -1,4 +1,4 @@
-// Para la música: pega aquí tu archivo en formato data URI (data:audio/mpeg;base64,...)
+// Música: guarda tu mp3 junto a index.html y escribe su nombre aquí, por ejemplo "musica.mp3"
 var AUDIO_SRC = "musica.mp3";
 var bgm = document.getElementById('bgm'), mb = document.getElementById('music');
 if (AUDIO_SRC) { bgm.src = AUDIO_SRC; mb.style.display = 'block'; }
