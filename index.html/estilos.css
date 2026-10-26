@@ -48,3 +48,5 @@ main{max-width:640px;margin:0 auto;padding:56px 28px 90px;position:relative;z-in
 .cvlogos img{height:52px;mix-blend-mode:multiply}
 .soc a{display:inline-block;transition:transform .2s}
 .soc a:hover{transform:translateY(-3px) scale(1.08)}
+.map{display:inline-block;margin-top:10px;padding:6px 14px;border:1px solid var(--gold);color:var(--gold);text-decoration:none;font-size:.8rem;letter-spacing:.18em;text-transform:uppercase;transition:background .2s,color .2s}
+.map:hover{background:var(--gold);color:var(--bg)}
